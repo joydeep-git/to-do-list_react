@@ -13,7 +13,7 @@ function ToDoList({ toDos, setToDos }){
     }
 
     if(!toDos.length){
-        return <p>No to-do s</p>
+        return <p>No To-Dos,</p>
     }
 
     return(

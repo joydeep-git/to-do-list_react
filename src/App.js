@@ -10,9 +10,12 @@ function App() {
     <p style={{
       fontSize: "15px",
       textAlign: "center",
-      fontFamily: "poppins"
+      fontFamily: "poppins",
     }}>Created by Joydeep with ❤ & React.js </p>
-    <h1>To-do list</h1>
+    <h1 style={{
+      textAlign:"center",
+      
+    }}>To-do list</h1>
     <AddToDo setToDos={setToDos}/>
     <ToDoList toDos={toDos} setToDos={setToDos}/>
     </>

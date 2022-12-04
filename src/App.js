@@ -4,7 +4,6 @@ import DeleteToDo from "./components/DeleteToDo";
 function App() {
   return (
     <>
-    <AddToDo/>
     </>
   );
 }

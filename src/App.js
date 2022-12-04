@@ -7,7 +7,11 @@ function App() {
   ]);
   return (
     <>
-    <p>Created by Joydeep Das with ❤</p>
+    <p style={{
+      fontSize: "15px",
+      textAlign: "center",
+      fontFamily: "poppins"
+    }}>Created by Joydeep with ❤ & React.js </p>
     <h1>To-do list</h1>
     <AddToDo setToDos={setToDos}/>
     <ToDoList toDos={toDos} setToDos={setToDos}/>

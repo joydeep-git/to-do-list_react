@@ -1,5 +1,6 @@
 import React from 'react';
 import DeleteToDo from './DeleteToDo';
+import "../component CSS/ToDoList.css";
 function ToDoList({ toDos, setToDos }){
 
 

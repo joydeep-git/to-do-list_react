@@ -7,7 +7,7 @@ function App() {
   ]);
   return (
     <>
-    <p>This To-Do app created by Joydeep Das, using HTML, CSS, Javascript and React.js. Share if you liked it</p>
+    <p>Created by Joydeep Das with ❤❤</p>
     <h1>To-do list</h1>
     <AddToDo setToDos={setToDos}/>
     <ToDoList toDos={toDos} setToDos={setToDos}/>

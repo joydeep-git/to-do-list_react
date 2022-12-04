@@ -14,7 +14,7 @@ function ToDoList({ toDos, setToDos }){
     }
 
     if(!toDos.length){
-        return <p>Empty list, Add a few</p>
+        return <p className='p'>Empty list, Add a few</p>
     }
 
     return(

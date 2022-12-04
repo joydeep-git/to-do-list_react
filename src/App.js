@@ -14,7 +14,8 @@ function App() {
     }}>Created by Joydeep with ❤ & React.js </p>
     <h1 style={{
       textAlign:"center",
-      
+      fontSize:"1.5rem",
+      color: "red"
     }}>To-do list</h1>
     <AddToDo setToDos={setToDos}/>
     <ToDoList toDos={toDos} setToDos={setToDos}/>

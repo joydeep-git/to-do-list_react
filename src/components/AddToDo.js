@@ -8,7 +8,10 @@ function AddToDo({setToDos}){
 
     function handleAddToDo(e){
         e.preventDefault();
-        const text = inputRef.current.value;
+        if(inputRef.current.value.length === 0){
+            alert("Add a to-do")
+        }else{
+            const text = inputRef.current.value;
         const toDo = {
             id: uuidv4(),
             text,
@@ -18,6 +21,7 @@ function AddToDo({setToDos}){
             return [ ...prevToDos, toDo]});
 
         inputRef.current.value = "";
+        }
     }
 
     return(

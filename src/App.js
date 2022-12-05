@@ -1,7 +1,6 @@
 import React from "react";
 import ToDoList from "./components/ToDoList";
 import AddToDo from "./components/AddToDo";
-import "./Images/react.svg";
 import { useState } from "react";
 function App() {
   const [toDos, setToDos] = useState([

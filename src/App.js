@@ -12,7 +12,7 @@ function App() {
       fontSize: "15px",
       textAlign: "center",
       fontFamily: "poppins",
-    }}>Created by Joydeep with ❤ & <img src="" alt="React.JS" /> </p>
+    }}>Created by Joydeep with ❤ & React.JS</p>
     <h1 style={{
       textAlign:"center",
       fontSize:"1.5rem",

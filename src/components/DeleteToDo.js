@@ -1,12 +1,11 @@
 import React from "react";
+import "../component CSS/DeleteToDo.css"
 function DeleteToDo({todo, setToDos}){
     function handleToDos(){
         setToDos((currentToDos)=>currentToDos.filter((t)=>t.id !== todo.id))
     }
     return(
-        <span onClick={handleToDos} style={{
-            color: 'red', fontWeight: 'normal', marginLeft: '25px', cursor: 'pointer', textDecoration: 'none',
-        }}>X</span>
+        <button className="btn" onClick={handleToDos}>X</button>
     )
 }
 export default DeleteToDo;

@@ -9,7 +9,7 @@ function AddToDo({setToDos}){
     function handleAddToDo(e){
         e.preventDefault();
         if(inputRef.current.value.length === 0){
-            alert("Add a to-do")
+            alert("No Content")
         }else{
             const text = inputRef.current.value;
         const toDo = {

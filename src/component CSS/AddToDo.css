@@ -22,4 +22,5 @@ form button{
     padding: 6px 22px;
     border-radius: 12px;
     border: 0.5px solid rgb(59, 50, 56);
+    cursor: pointer;
 }

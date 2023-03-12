@@ -6,12 +6,7 @@ function App() {
   const [toDos, setToDos] = useState([
   ]);
   return (
-    <>
-    <p style={{
-      fontSize: "15px",
-      textAlign: "center",
-      fontFamily: "poppins",
-    }}>Created by Joydeep with ❤ & React.JS</p>
+    <div className="App">
     <h1 style={{
       textAlign:"center",
       fontSize:"1.5rem",
@@ -19,7 +14,7 @@ function App() {
     }}>To-do list</h1>
     <AddToDo setToDos={setToDos}/>
     <ToDoList toDos={toDos} setToDos={setToDos}/>
-    </>
+    </div>
   );
 }
 export default App;
